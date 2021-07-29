@@ -8,6 +8,7 @@ export default function ProviderPlanets({ children }) {
     filterByName: {
       name: '',
     },
+    filterByNumericValues: [],
   };
 
   const [planets, setPlanets] = useState([]);
