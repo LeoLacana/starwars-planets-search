@@ -40,7 +40,13 @@ export default function FilterPlanets() {
         <option>igual a</option>
       </select>
       <input type="number" data-testid="value-filter" id="value-filter" />
-      <button data-testid="button-filter" type="submit" onClick={ handleNumericValues }>Filtrar</button>
+      <button
+        data-testid="button-filter"
+        type="submit"
+        onClick={ handleNumericValues }
+      >
+        Filtrar
+      </button>
     </div>
   );
 }
